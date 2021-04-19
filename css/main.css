@@ -1,0 +1,49 @@
+:root {
+  --color-primary: hsl(240, 100%, 46%);
+  --color-primary-hover: hsl(240, 100%, 54%);
+  --color-primary-active: hsl(240, 100%, 62%);
+  --color-primary-lucent: hsla(240, 100%, 46%, 0.35);
+  --font-family-base: "Inter", system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --fluid-max-size: 19;
+  --radius: 0.5em;
+}
+
+html {
+  background-color: var(--color-primary);
+}
+
+#app {
+  padding: var(--space-xs);
+}
+
+#app > *:not(:last-child) {
+  margin-bottom: var(--space-xs);
+}
+
+header {
+  position: sticky;
+  top: var(--space-xs);
+  left: 0;
+  width: 100%;
+}
+
+header .title {
+  margin-right: var(--component-spacer);
+}
+
+@media (min-width: 640px) {
+  header .box {
+    display: flex;
+    align-items: center;
+  }
+
+  header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+}
+
+.title {
+  font-weight: 700;
+}

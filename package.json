@@ -1,0 +1,36 @@
+{
+  "name": "plain-spa",
+  "version": "0.2.0",
+  "description": "Modern single-page application deployable as-is without any bundlers",
+  "main": "js/main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"No test specified\""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@rollup/plugin-alias": "^3.1.1",
+    "rollup": "^2.18.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-size": "^0.2.2",
+    "rollup-plugin-terser": "^6.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johannschopplich/plain-spa.git"
+  },
+  "keywords": [
+    "reactive",
+    "dom",
+    "javascript",
+    "spa",
+    "sinuous"
+  ],
+  "author": "Johann Schopplich <pkg@johannschopplich.com> (https://johannschopplich.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johannschopplich/plain-spa/issues"
+  },
+  "homepage": "https://github.com/johannschopplich/plain-spa#readme"
+}
